@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Interne Dokumente — nicht ins Web-Repo
+Räumheld_Logo.jpg
+Entruempelung Kalkulator.xlsx
+Ksenia Striletska Kostenvoranschlag.pdf
+index.pdf
+*.pdf
+*.xlsx
+*.xls
+
+# Claude Code
+.claude/
