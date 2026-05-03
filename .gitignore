@@ -22,3 +22,7 @@ index.pdf
 # Claude Code
 .claude/
 raeumheld-website.zip
+
+# UUID-named screenshots/downloads
+[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-*.JPG
+[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-*.jpg
