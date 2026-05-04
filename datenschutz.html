@@ -11,6 +11,9 @@
 
 <link rel="preload" as="style" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="assets/fonts/fonts.css">
+<!-- Klaro! Consent-Banner (lokal gehostet, kein externer Request) -->
+<script defer src="assets/klaro/klaro-config.js"></script>
+<script defer src="assets/klaro/klaro.js"></script>
 <link rel="stylesheet" href="assets/legal.css">
 </head>
 <body>
@@ -29,7 +32,7 @@
   <div class="legal-header-inner">
     <div class="legal-eyebrow">Information nach Art. 13 DSGVO</div>
     <h1 class="legal-title">Datenschutzerklärung</h1>
-    <p class="legal-meta">Stand: Mai 2026 · Version 1.0</p>
+    <p class="legal-meta">Stand: Mai 2026 · Version 2.0 (Cookie-Banner + Google Analytics ergänzt)</p>
   </div>
 </header>
 
@@ -45,7 +48,7 @@
       <li><a href="#schriften">Web-Schriftarten</a></li>
       <li><a href="#kontakt">Kontaktaufnahme (Telefon, WhatsApp, E-Mail)</a></li>
       <li><a href="#auftragsdaten">Verarbeitung im Rahmen der Auftragsabwicklung</a></li>
-      <li><a href="#cookies">Cookies</a></li>
+      <li><a href="#cookies">Cookies und Consent-Management (Klaro!, Google Analytics)</a></li>
       <li><a href="#rechte">Ihre Rechte als betroffene Person</a></li>
       <li><a href="#beschwerde">Beschwerderecht bei der Aufsichtsbehörde</a></li>
       <li><a href="#sicherheit">Datensicherheit (SSL/TLS)</a></li>
@@ -235,17 +238,92 @@
     vorsehen (z. B. Finanzbehörden, Steuerberater).
   </p>
 
-  <h2 id="cookies">8. Cookies</h2>
+  <h2 id="cookies">8. Cookies und Consent-Management</h2>
+
+  <h3>8.1 Allgemeines</h3>
   <p>
-    Diese Webseite verwendet derzeit <strong>keine Cookies und keine
-    Analyse- oder Tracking-Tools</strong>. Es werden keine Daten zu Marketing-,
-    Statistik- oder Profilbildungszwecken verarbeitet.
+    Wir setzen auf dieser Webseite Cookies und vergleichbare Technologien ein.
+    Cookies sind kleine Textdateien, die in Ihrem Browser gespeichert werden,
+    wenn Sie unsere Webseite besuchen. Manche Cookies sind technisch zwingend
+    notwendig, andere setzen wir nur ein, wenn Sie uns Ihre Einwilligung
+    erteilen.
+  </p>
+
+  <h3>8.2 Consent-Management mit Klaro!</h3>
+  <p>
+    Beim ersten Besuch unserer Webseite erscheint ein Cookie-Banner des
+    Open-Source-Tools <strong>Klaro!</strong>. Über dieses Banner können Sie
+    granular auswählen, welche nicht-notwendigen Cookies gesetzt werden
+    dürfen. Sie haben jederzeit die Möglichkeit, Ihre Einwilligung über den
+    Link <em>„Cookie-Einstellungen"</em> im Footer zu widerrufen oder anzupassen.
   </p>
   <p>
-    Sollten in Zukunft Cookies oder vergleichbare Technologien zum
-    Einsatz kommen, die nicht zwingend technisch erforderlich sind,
-    werden wir vorab Ihre Einwilligung über ein entsprechendes
-    Consent-Tool einholen (§ 25 Abs. 1 TDDDG).
+    Klaro! wird <strong>lokal von unserem eigenen Server</strong> ausgeliefert,
+    es findet keine Verbindung zu externen Servern statt. Klaro! speichert Ihre
+    Einwilligungs-Entscheidung in einem technisch notwendigen Cookie
+    (<code>klaro_consent</code>, Speicherdauer: 180 Tage). Rechtsgrundlage für
+    die Speicherung dieses Cookies ist § 25 Abs. 2 Nr. 2 TDDDG (unbedingt
+    erforderlich).
+  </p>
+
+  <h3>8.3 Google Analytics 4 (statistische Auswertung)</h3>
+  <p>
+    Mit Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO i. V. m. § 25 Abs. 1
+    TDDDG) setzen wir <strong>Google Analytics 4</strong> ein, einen
+    Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street,
+    Dublin 4, Irland („Google"). Google Analytics nutzt Cookies und ähnliche
+    Technologien, um die Nutzung dieser Webseite anonymisiert auszuwerten.
+  </p>
+  <p>
+    <strong>Erfasste Daten:</strong> Aufgerufene Seiten, Verweildauer,
+    geografischer Raum (auf Stadt-Ebene), Gerätetyp, Browser, Betriebssystem,
+    Quelle (z. B. Suchmaschine, Direktbesuch), gekürzte IP-Adresse.
+  </p>
+  <p>
+    <strong>IP-Anonymisierung:</strong> Wir setzen Google Analytics mit
+    aktivierter <em>IP-Anonymisierung</em> ein. Ihre IP-Adresse wird vor jeder
+    Verarbeitung gekürzt, sodass kein Personenbezug möglich ist. Personalisierte
+    Werbung und Datenweitergabe an die Werbe-Plattform Google Ads sind
+    deaktiviert (<code>allow_google_signals: false</code>,
+    <code>allow_ad_personalization_signals: false</code>).
+  </p>
+  <p>
+    <strong>Cookies, die Google Analytics setzen kann:</strong>
+    <code>_ga</code> (Speicherdauer 2 Jahre, unterscheidet Nutzer),
+    <code>_ga_&lt;ID&gt;</code> (2 Jahre, Sitzungsdaten),
+    <code>_gid</code> (24 Stunden, unterscheidet Nutzer),
+    <code>_gat</code> (1 Minute, Drosselung der Anfragerate).
+  </p>
+  <p>
+    <strong>Drittlandtransfer (USA):</strong> Google Ireland Ltd. ist eine
+    Tochter der Google LLC mit Sitz in den USA. Es kann zu einer Übertragung
+    Ihrer Daten in die USA kommen. Google ist seit dem 10. Juli 2023 unter
+    dem <em>EU-US Data Privacy Framework</em> zertifiziert (Art. 45 DSGVO,
+    Angemessenheitsbeschluss der EU-Kommission). Zusätzlich sind die
+    Standardvertragsklauseln (SCC) der EU-Kommission abgeschlossen.
+  </p>
+  <p>
+    <strong>Speicherdauer:</strong> 14 Monate ab letzter Aktivität (Standard
+    von Google Analytics 4, von uns nicht verlängert).
+  </p>
+  <p>
+    <strong>Auftragsverarbeitung:</strong> Mit Google haben wir einen Vertrag
+    über die Auftragsverarbeitung nach Art. 28 DSGVO geschlossen
+    (Datenverarbeitungs-Zusatzvereinbarung von Google).
+  </p>
+  <p>
+    <strong>Widerruf:</strong> Sie können Ihre Einwilligung jederzeit
+    widerrufen, indem Sie im Footer auf <em>„Cookie-Einstellungen"</em> klicken
+    und Google Analytics deaktivieren. Alternativ können Sie das
+    <a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="noopener">
+    Google Analytics Browser-Add-on</a> installieren.
+  </p>
+  <p>
+    Weitere Informationen finden Sie in der
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+    Datenschutzerklärung von Google</a> und in den
+    <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener">
+    Privacy Resources von Google Business</a>.
   </p>
 
   <h2 id="rechte">9. Ihre Rechte als betroffene Person</h2>
@@ -307,6 +385,7 @@
       <a href="datenschutz.html">Datenschutz</a>
       <a href="agb.html">AGB</a>
       <a href="widerruf.html">Widerruf</a>
+      <a href="#" data-klaro-show>Cookie-Einstellungen</a>
     </div>
   </div>
   <div class="footer-bottom">
